@@ -25,6 +25,9 @@ body {
 
   }
 }
+.bg_header {
+  background: url("../images/bg_head.png");
+}
 .mainer {
   width: 100%;
   background: #edeccd;
@@ -128,9 +131,9 @@ body {
     text-decoration: none;
   }
   .nav_1 {
-    width: 65px;
-    height: 26px;
-    padding: 5px 16px 4px;
+    width: 58px;
+    height: 35px;
+    padding: 9px 12px 4px;
     font-size: 12px;
     color: #969696;
   }
@@ -140,14 +143,14 @@ body {
     border-color: @g_nav;
   }
   .nav_2 {
-    width: 81px;
-    height: 26px;
+    width: 75px;
+    height: 35px;
     margin: 0;
-    padding: 5px 15px 4px;
+    padding: 9px 12px 4px;
     font-size: 12px;
     color: #969696;
     position: absolute;
-    left: 89px;
+    left: 81px;
   }
   .nav_2:hover {
     background: @g_nav;
@@ -155,14 +158,14 @@ body {
     border-color: @g_nav;
   }
   .nav_3 {
-    width: 75px;
-    height: 26px;
+    width: 70px;
+    height: 35px;
     margin: 0;
-    padding: 5px 15px 4px;
+    padding: 9px 12px 4px;
     font-size: 12px;
     color: #969696;
     position: absolute;
-    left: 171px;
+    left: 157px;
   }
   .nav_3:hover {
     background: @g_nav;
@@ -174,11 +177,11 @@ body {
     right: 58px;
   }
   .nav_4 {
-    width: 96px;
-    height: 34px;
+    width: 85px;
+    height: 35px;
     margin: 0;
-    padding: 9px 15px 4px;
-    font-size: 13px;
+    padding: 9px 12px 4px;
+    font-size: 12px;
     color: #969696;
     position: absolute;
     right: 23px;
@@ -189,14 +192,14 @@ body {
     border-color: @g_nav;
   }
   .nav_5 {
-    width: 56px;
-    height: 34px;
+    width: 49px;
+    height: 35px;
     margin: 0;
-    padding: 9px 15px 4px;
-    font-size: 13px;
+    padding: 9px 12px 4px;
+    font-size: 12px;
     color: #969696;
     position: absolute;
-    right: 120px;
+    right: 107px;
   }
   .nav_5:hover {
     background: @g_nav;
@@ -204,14 +207,14 @@ body {
     border-color: @g_nav;
   }
   .nav_6 {
-    width: 57px;
-    height: 26px;
+    width: 54px;
+    height: 35px;
     margin: 0;
-    padding: 6px 15px 4px;
-    font-size: 11px;
+    padding: 9px 12px 4px;
+    font-size: 12px;
     color: #969696;
     position: absolute;
-    right: 163px;
+    right: 155px;
   }
   .nav_6:hover {
     background: @g_nav;
@@ -219,14 +222,14 @@ body {
     border-color: @g_nav;
   }
   .nav_7 {
-    width: 82px;
-    height: 21px;
+    width: 102px;
+    height: 35px;
     margin: 0;
-    padding: 6px 15px 4px;
-    font-size: 8px;
-    color: @m_gr;
+    padding: 9px 12px 4px;
+    font-size: 12px;
+    color: #969696;
     position: absolute;
-    right: 224px;
+    right: 208px;
   }
   .nav_7:hover {
     background: @g_nav;
@@ -234,14 +237,14 @@ body {
     border-color: @g_nav;
   }
   .nav_8 {
-    width: 82px;
-    height: 21px;
+    width: 113px;
+    height: 35px;
     margin: 0;
-    padding: 6px 15px 4px;
-    font-size: 8px;
-    color: @m_gr;
+    padding: 9px 12px 4px;
+    font-size: 12px;
+    color: #969696;
     position: absolute;
-    right: 306px;
+    right: 309px;
   }
   .nav_8:hover {
     background: @g_nav;
@@ -250,22 +253,22 @@ body {
   }
 }
 .sep_1 {
-  left: 88px;
+  left: 80px;
 }
 .sep_2 {
-  left: 170px;
+  left: 156px;
 }
 .sep_4 {
-  right: 119px;
+  right: 107px;
 }
 .sep_5 {
-  right: 176px;
+  right: 155px;
 }
 .sep_6 {
-  right: 220px;
+  right: 208px;
 }
 .sep_7 {
-  right: 305px;
+  right: 309px;
 }
 .line_1 {
   width: 100%;
@@ -295,25 +298,40 @@ body {
     background: url("../images/pencils.png");
   }
   .menu_2 {
-    width: 370px;
+    width: 420px;
     min-height: 75px;
-    margin: 0 51px 31px 0;
-    span {
+    margin: 0 0 20px 0;
+    span:nth-child(1) {
       font-size: 34px;
       color: @m_y;
-      margin: 0 0 27px 0;
+      margin: 0 auto;
+    }
+    span:nth-child(2) {
+      font-size: 13px;
+      color: #f2f2eb;
+      margin: 0 0 5px 0;
+      float: left;
     }
     a {
       display: inline-block;
+      color: #0f0f0f;
+      padding: 0 8px 0 0;
+      width: 100%;
     }
     a:hover {
       text-decoration: none;
+      background: #f1efb5;
+      border-radius: 5px;
     }
     .icon_com_2 {
-      color: #0f0f0f;
-      font-size: 10px;
-      margin: 2px 0px;
+      min-width: 102px;
+      height: 22px;
+      background: #efeed2;
+      border: 1px solid #a73a0b;
+      border-radius: 5px;
+      font-size: 14px;
       float: left;
+      margin: 0 10px 0 0;
     }
     .icon_book_2 {
       color: #0f0f0f;
@@ -326,7 +344,7 @@ body {
       height: 19px;
       margin: 15px 5px 0 0;
       float: left;
-      background: url("../images/butt.png");
+      background: red;
     }
   }
 }
@@ -416,7 +434,7 @@ body {
               height: 11px;
               margin: 4px 0 0 4px;
               float: left;
-              font-size: 10px;
+              font-size: 14px;
               color: @d_b;
             }
           }
@@ -473,9 +491,8 @@ body {
         width: 213px;
         height: 23px;
         margin: 12px 0 0 10px;
-        padding: 0;
+        padding: 0 0 0 7px;
         float: left;
-        border: none;
         outline: none;
         background: #ffffff;
         font-size: 10px;
@@ -483,19 +500,7 @@ body {
         font-weight: 600;
         border: 1px solid #808080;
       }
-
-      .search_but {
-        display: inline-block;
-        width: 60px;
-        height: 23px;
-        float: left;
-        border: none;
-        margin: 12px 0 0 5px;
-        font-size: 14px;
-        color: #0f0f0f;
-        font-weight: 600;
-        background: url("../images/knopka.png");
-      }
+    }
       .search_tex_st {
         width: 3px;
         height: 5px;
@@ -514,13 +519,13 @@ body {
         font-weight: 700;
         text-decoration: none;
       }
-
     }
     .search_menu_2 {
       width: 340px;
       height: 63px;
       float: right;
       margin: 0 -11px 0 0;
+
       .icon_chel {
         width: 28px;
         height: 28px;
@@ -528,6 +533,7 @@ body {
         margin: 10px 0 0 0;
         background: url("../images/icon.png");
       }
+
       .icon_text {
         min-width: 200px;
         min-height: 24px;
@@ -538,6 +544,7 @@ body {
         color: #0f0f0f;
         text-shadow: white 1px 1px 0, white -1px 1px 0, white 1px -1px 0, white -1px -1px 0;
       }
+
       .search_tex_2 {
         width: 338px;
         height: 18px;
@@ -550,13 +557,13 @@ body {
         font-weight: 500;
         padding: 0 0 0 8px;
       }
+
       .login {
         width: 134px;
         height: 23px;
         margin: 10px 0 0 0;
-        padding: 0;
+        padding: 0 0 0 7px;
         float: left;
-        border: none;
         outline: none;
         background: #ffffff;
         font-size: 10px;
@@ -564,13 +571,13 @@ body {
         font-weight: 600;
         border: 1px solid #808080;
       }
+
       .passw {
         width: 134px;
         height: 23px;
         margin: 10px 0 0 5px;
-        padding: 0;
+        padding: 0 0 0 7px;
         float: left;
-        border: none;
         outline: none;
         background: #ffffff;
         font-size: 10px;
@@ -578,6 +585,7 @@ body {
         font-weight: 600;
         border: 1px solid #808080;
       }
+
       .login_but {
         display: inline-block;
         width: 60px;
@@ -590,15 +598,18 @@ body {
         font-weight: 600;
         background: url("../images/knopka.png");
       }
+
       .Rem_1 {
         width: 100%;
         height: 25px;
         //margin: 5px 0px;
         float: left;
+
         .rem {
           margin: 7px 0;
           float: left;
         }
+
         .Rem {
           font-size: 14px;
           color: #0f0f0f;
@@ -608,7 +619,13 @@ body {
       }
     }
   }
-}
+
+  .sb {
+    margin: 12px 0 0 5px;
+  }
+  .lg {
+    margin: 10px 0 0 5px;
+  }
 .main2 {
   width: 974px;
   min-height: 385px;
@@ -620,21 +637,27 @@ body {
     .content {
       width: 100%;
       min-height: 355px;
-      padding: 30px 0 0 30px;
+      padding: 25px 0 0 30px;
+      .tex_wh {
+        width: 100%;
+        color: @wl_y;
+      }
       .tex {
+        width: 100%;
         color: @tx;
       }
       .content_head {
         width: 554px;
         height: 115px;
-        padding: 30px 0 0 0;
-        span.qwe {
+        padding: 0;
+        .qwe {
+          width: 100%;
+          min-height: 10px;
+          padding: 0;
+          margin: 0 auto;
           font-size: 30px;
           font-weight: 600;
           float: left;
-          position: relative;
-          top: -37px;
-          margin: 0 286px -38px 0;
         }
         .content_head_1 {
           width: 75%;
@@ -648,7 +671,8 @@ body {
         margin: 0;
         padding: 0;
         float: left;
-        span.hed {
+        .hed {
+          width: 100%;
           color: #b01d04;
           font-size: 18px;
           font-weight: 600;
@@ -658,20 +682,57 @@ body {
           height: 1px;
           background: url("../images/dotted_line.png");
         }
-        .knop {
-          width: 56px;
+        .st_r {
+          width: 3px;
+          height: 5px;
+          float: left;
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          background: url("../images/strelka_red.png");
+        }
+        .but_m {
+          display: inline-block;
+          min-width: 50px;
           height: 16px;
+          margin: 5px 0 0 0;
           float: right;
-          margin: 23px 6px 0 0;
-          text-decoration: none;
-          color: #0f0f0f;
+          border: 1px solid #bcb982;
+          border-radius: 7px;
           font-size: 10px;
-          background: url("../images/knop.png");
-          span {
-            margin: 0 0 0 13px;
+          font-weight: 600;
+          position: relative;
+          background: linear-gradient(180deg, #ffffff, #efebbd);
+          a {
             display: inline-block;
+            color: #0f0f0f;
+            padding: 0 12px 0 5px;
+            text-align: center;
+            width: 100%;
+            min-height: 14px;
+            border-radius: 7px;
+          }
+
+          a:hover {
+            text-decoration: none;
+            background: #ffffff;
+            min-width: 48px;
+            min-height: 14px;
+            border-radius: 7px;
+            background: linear-gradient(180deg, #efebbd, #ffffff);
+
           }
         }
+
+
+
+
+
+
+
+
+
+
       }
       .content_img {
         width: 171px;
@@ -697,6 +758,13 @@ body {
       }
     }
   }
+  .st_r2 {
+    width: 3px;
+    height: 5px;
+    float: left;
+    margin: 5px 6px;
+    background: url("../images/strelka_red.png");
+  }
   .main2_2 {
     width: 390px;
     min-height: 385px;
@@ -713,8 +781,16 @@ body {
           height: 17px;
           float: left;
           margin: 5px 10px 0 0;
-          background: url("../images/knopka_2.png");
+          border: 1px solid #94915d;
+          background: #edeccd;
           text-decoration: none;
+          a {
+            display: inline-block;
+          }
+          a:hover {
+            text-decoration: none;
+            background: #e9e7a0;
+          }
         }
         .box_text {
           font-size: 20px;
@@ -757,11 +833,11 @@ body {
           color: #0f0f0f;
           font-weight: 600;
           position: relative;
-          top: 20px;
-          right: -60px;
+          top: -4px;
+          left: 125px;
         }
         .numb:hover {
-          color: #ffffff;
+          color: dimgrey;
         }
       }
     }
@@ -791,9 +867,10 @@ body {
 
     .bg_page {
       width: 335px;
-      height: 37px;
-      background: url("../images/bg_foot.png");
+      height: 45px;
+      background: url("../images/bg_foot.png") round;
       position: relative;
+      background-size: 100%;
       top: -10px;
       left: 295px;
     }
@@ -824,7 +901,7 @@ body {
       display: flex;
       flex-direction: row;
       position: relative;
-      top: -27px;
+      top: -35px;
       right: 21px;
       width: 160px;
       height: 20px;

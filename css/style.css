@@ -7,12 +7,38 @@
 }
 .sep {
   width: 1px;
-  height: 34px;
+  height: 35px;
   background: #dcd9a5;
   margin: 0;
   padding: 0;
   position: absolute;
   top: 0px;
+}
+.search_but {
+  display: inline-block;
+  min-width: 60px;
+  height: 23px;
+  float: left;
+  border: 1px solid #d27d00;
+  border-radius: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  background: linear-gradient(180deg, #f6e5af, #ee981c);
+}
+.search_but a {
+  display: inline-block;
+  color: #0f0f0f;
+  text-align: center;
+  width: 100%;
+  min-height: 23px;
+  border-radius: 1px;
+}
+.search_but a:hover {
+  text-decoration: none;
+  background: linear-gradient(90deg, #f6e5af, #ee981c);
+  min-width: 58px;
+  min-height: 21px;
+  border-radius: 1px;
 }
 .icon_com {
   height: 9px;
@@ -65,6 +91,9 @@ body {
 .head .head_bg {
   background: linear-gradient(180deg, #fff, #f5f4e1);
   min-height: 60px;
+}
+.bg_header {
+  background: url("../images/bg_head.png");
 }
 .mainer {
   width: 100%;
@@ -165,9 +194,9 @@ body {
   text-decoration: none;
 }
 .nav .nav_1 {
-  width: 65px;
-  height: 26px;
-  padding: 5px 16px 4px;
+  width: 58px;
+  height: 35px;
+  padding: 9px 12px 4px;
   font-size: 12px;
   color: #969696;
 }
@@ -177,14 +206,14 @@ body {
   border-color: #cbc783;
 }
 .nav .nav_2 {
-  width: 81px;
-  height: 26px;
+  width: 75px;
+  height: 35px;
   margin: 0;
-  padding: 5px 15px 4px;
+  padding: 9px 12px 4px;
   font-size: 12px;
   color: #969696;
   position: absolute;
-  left: 89px;
+  left: 81px;
 }
 .nav .nav_2:hover {
   background: #cbc783;
@@ -192,14 +221,14 @@ body {
   border-color: #cbc783;
 }
 .nav .nav_3 {
-  width: 75px;
-  height: 26px;
+  width: 70px;
+  height: 35px;
   margin: 0;
-  padding: 5px 15px 4px;
+  padding: 9px 12px 4px;
   font-size: 12px;
   color: #969696;
   position: absolute;
-  left: 171px;
+  left: 157px;
 }
 .nav .nav_3:hover {
   background: #cbc783;
@@ -211,11 +240,11 @@ body {
   right: 58px;
 }
 .nav .nav_4 {
-  width: 96px;
-  height: 34px;
+  width: 85px;
+  height: 35px;
   margin: 0;
-  padding: 9px 15px 4px;
-  font-size: 13px;
+  padding: 9px 12px 4px;
+  font-size: 12px;
   color: #969696;
   position: absolute;
   right: 23px;
@@ -226,14 +255,14 @@ body {
   border-color: #cbc783;
 }
 .nav .nav_5 {
-  width: 56px;
-  height: 34px;
+  width: 49px;
+  height: 35px;
   margin: 0;
-  padding: 9px 15px 4px;
-  font-size: 13px;
+  padding: 9px 12px 4px;
+  font-size: 12px;
   color: #969696;
   position: absolute;
-  right: 120px;
+  right: 107px;
 }
 .nav .nav_5:hover {
   background: #cbc783;
@@ -241,14 +270,14 @@ body {
   border-color: #cbc783;
 }
 .nav .nav_6 {
-  width: 57px;
-  height: 26px;
+  width: 54px;
+  height: 35px;
   margin: 0;
-  padding: 6px 15px 4px;
-  font-size: 11px;
+  padding: 9px 12px 4px;
+  font-size: 12px;
   color: #969696;
   position: absolute;
-  right: 163px;
+  right: 155px;
 }
 .nav .nav_6:hover {
   background: #cbc783;
@@ -256,14 +285,14 @@ body {
   border-color: #cbc783;
 }
 .nav .nav_7 {
-  width: 82px;
-  height: 21px;
+  width: 102px;
+  height: 35px;
   margin: 0;
-  padding: 6px 15px 4px;
-  font-size: 8px;
+  padding: 9px 12px 4px;
+  font-size: 12px;
   color: #969696;
   position: absolute;
-  right: 224px;
+  right: 208px;
 }
 .nav .nav_7:hover {
   background: #cbc783;
@@ -271,14 +300,14 @@ body {
   border-color: #cbc783;
 }
 .nav .nav_8 {
-  width: 82px;
-  height: 21px;
+  width: 113px;
+  height: 35px;
   margin: 0;
-  padding: 6px 15px 4px;
-  font-size: 8px;
+  padding: 9px 12px 4px;
+  font-size: 12px;
   color: #969696;
   position: absolute;
-  right: 306px;
+  right: 309px;
 }
 .nav .nav_8:hover {
   background: #cbc783;
@@ -286,22 +315,22 @@ body {
   border-color: #cbc783;
 }
 .sep_1 {
-  left: 88px;
+  left: 80px;
 }
 .sep_2 {
-  left: 170px;
+  left: 156px;
 }
 .sep_4 {
-  right: 119px;
+  right: 107px;
 }
 .sep_5 {
-  right: 176px;
+  right: 155px;
 }
 .sep_6 {
-  right: 220px;
+  right: 208px;
 }
 .sep_7 {
-  right: 305px;
+  right: 309px;
 }
 .line_1 {
   width: 100%;
@@ -331,26 +360,41 @@ body {
   background: url("../images/pencils.png");
 }
 .header_2 .menu_2 {
-  width: 370px;
+  width: 420px;
   min-height: 75px;
-  margin: 0 51px 31px 0;
+  margin: 0 0 20px 0;
 }
-.header_2 .menu_2 span {
+.header_2 .menu_2 span:nth-child(1) {
   font-size: 34px;
   color: #edeccd;
-  margin: 0 0 27px 0;
+  margin: 0 auto;
+}
+.header_2 .menu_2 span:nth-child(2) {
+  font-size: 13px;
+  color: #f2f2eb;
+  margin: 0 0 5px 0;
+  float: left;
 }
 .header_2 .menu_2 a {
   display: inline-block;
+  color: #0f0f0f;
+  padding: 0 8px 0 0;
+  width: 100%;
 }
 .header_2 .menu_2 a:hover {
   text-decoration: none;
+  background: #f1efb5;
+  border-radius: 5px;
 }
 .header_2 .menu_2 .icon_com_2 {
-  color: #0f0f0f;
-  font-size: 10px;
-  margin: 2px 0px;
+  min-width: 102px;
+  height: 22px;
+  background: #efeed2;
+  border: 1px solid #a73a0b;
+  border-radius: 5px;
+  font-size: 14px;
   float: left;
+  margin: 0 10px 0 0;
 }
 .header_2 .menu_2 .icon_book_2 {
   color: #0f0f0f;
@@ -363,7 +407,7 @@ body {
   height: 19px;
   margin: 15px 5px 0 0;
   float: left;
-  background: url("../images/butt.png");
+  background: red;
 }
 .main {
   width: 100%;
@@ -456,7 +500,7 @@ body {
   height: 11px;
   margin: 4px 0 0 4px;
   float: left;
-  font-size: 10px;
+  font-size: 14px;
   color: #1d1d1d;
 }
 .main .news .news_2 ul li .li_1:hover {
@@ -510,9 +554,8 @@ body {
   width: 213px;
   height: 23px;
   margin: 12px 0 0 10px;
-  padding: 0;
+  padding: 0 0 0 7px;
   float: left;
-  border: none;
   outline: none;
   background: #ffffff;
   font-size: 10px;
@@ -520,26 +563,14 @@ body {
   font-weight: 600;
   border: 1px solid #808080;
 }
-.main .main_3 .search_menu .search_but {
-  display: inline-block;
-  width: 60px;
-  height: 23px;
-  float: left;
-  border: none;
-  margin: 12px 0 0 5px;
-  font-size: 14px;
-  color: #0f0f0f;
-  font-weight: 600;
-  background: url("../images/knopka.png");
-}
-.main .main_3 .search_menu .search_tex_st {
+.main .main_3 .search_tex_st {
   width: 3px;
   height: 5px;
   float: left;
   margin: 10px 0 0 45px;
   background: url("../images/strelka.png");
 }
-.main .main_3 .search_menu .search_tex {
+.main .main_3 .search_tex {
   width: 200px;
   height: 15px;
   color: #c93705;
@@ -550,20 +581,20 @@ body {
   font-weight: 700;
   text-decoration: none;
 }
-.main .main_3 .search_menu_2 {
+.main .search_menu_2 {
   width: 340px;
   height: 63px;
   float: right;
   margin: 0 -11px 0 0;
 }
-.main .main_3 .search_menu_2 .icon_chel {
+.main .search_menu_2 .icon_chel {
   width: 28px;
   height: 28px;
   float: left;
   margin: 10px 0 0 0;
   background: url("../images/icon.png");
 }
-.main .main_3 .search_menu_2 .icon_text {
+.main .search_menu_2 .icon_text {
   min-width: 200px;
   min-height: 24px;
   font-size: 24px;
@@ -573,7 +604,7 @@ body {
   color: #0f0f0f;
   text-shadow: white 1px 1px 0, white -1px 1px 0, white 1px -1px 0, white -1px -1px 0;
 }
-.main .main_3 .search_menu_2 .search_tex_2 {
+.main .search_menu_2 .search_tex_2 {
   width: 338px;
   height: 18px;
   background: #f5f4e3;
@@ -585,13 +616,12 @@ body {
   font-weight: 500;
   padding: 0 0 0 8px;
 }
-.main .main_3 .search_menu_2 .login {
+.main .search_menu_2 .login {
   width: 134px;
   height: 23px;
   margin: 10px 0 0 0;
-  padding: 0;
+  padding: 0 0 0 7px;
   float: left;
-  border: none;
   outline: none;
   background: #ffffff;
   font-size: 10px;
@@ -599,13 +629,12 @@ body {
   font-weight: 600;
   border: 1px solid #808080;
 }
-.main .main_3 .search_menu_2 .passw {
+.main .search_menu_2 .passw {
   width: 134px;
   height: 23px;
   margin: 10px 0 0 5px;
-  padding: 0;
+  padding: 0 0 0 7px;
   float: left;
-  border: none;
   outline: none;
   background: #ffffff;
   font-size: 10px;
@@ -613,7 +642,7 @@ body {
   font-weight: 600;
   border: 1px solid #808080;
 }
-.main .main_3 .search_menu_2 .login_but {
+.main .search_menu_2 .login_but {
   display: inline-block;
   width: 60px;
   height: 23px;
@@ -625,20 +654,26 @@ body {
   font-weight: 600;
   background: url("../images/knopka.png");
 }
-.main .main_3 .search_menu_2 .Rem_1 {
+.main .search_menu_2 .Rem_1 {
   width: 100%;
   height: 25px;
   float: left;
 }
-.main .main_3 .search_menu_2 .Rem_1 .rem {
+.main .search_menu_2 .Rem_1 .rem {
   margin: 7px 0;
   float: left;
 }
-.main .main_3 .search_menu_2 .Rem_1 .Rem {
+.main .search_menu_2 .Rem_1 .Rem {
   font-size: 14px;
   color: #0f0f0f;
   font-weight: 600;
   margin: 3px 0 0 10px;
+}
+.sb {
+  margin: 12px 0 0 5px;
+}
+.lg {
+  margin: 10px 0 0 5px;
 }
 .main2 {
   width: 974px;
@@ -653,23 +688,29 @@ body {
 .main2 .main2_1 .content {
   width: 100%;
   min-height: 355px;
-  padding: 30px 0 0 30px;
+  padding: 25px 0 0 30px;
+}
+.main2 .main2_1 .content .tex_wh {
+  width: 100%;
+  color: #f2f2eb;
 }
 .main2 .main2_1 .content .tex {
+  width: 100%;
   color: #676436;
 }
 .main2 .main2_1 .content .content_head {
   width: 554px;
   height: 115px;
-  padding: 30px 0 0 0;
+  padding: 0;
 }
-.main2 .main2_1 .content .content_head span.qwe {
+.main2 .main2_1 .content .content_head .qwe {
+  width: 100%;
+  min-height: 10px;
+  padding: 0;
+  margin: 0 auto;
   font-size: 30px;
   font-weight: 600;
   float: left;
-  position: relative;
-  top: -37px;
-  margin: 0 286px -38px 0;
 }
 .main2 .main2_1 .content .content_head .content_head_1 {
   width: 75%;
@@ -683,7 +724,8 @@ body {
   padding: 0;
   float: left;
 }
-.main2 .main2_1 .content .content_1 span.hed {
+.main2 .main2_1 .content .content_1 .hed {
+  width: 100%;
   color: #b01d04;
   font-size: 18px;
   font-weight: 600;
@@ -693,19 +735,44 @@ body {
   height: 1px;
   background: url("../images/dotted_line.png");
 }
-.main2 .main2_1 .content .content_1 .knop {
-  width: 56px;
-  height: 16px;
-  float: right;
-  margin: 23px 6px 0 0;
-  text-decoration: none;
-  color: #0f0f0f;
-  font-size: 10px;
-  background: url("../images/knop.png");
+.main2 .main2_1 .content .content_1 .st_r {
+  width: 3px;
+  height: 5px;
+  float: left;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: url("../images/strelka_red.png");
 }
-.main2 .main2_1 .content .content_1 .knop span {
-  margin: 0 0 0 13px;
+.main2 .main2_1 .content .content_1 .but_m {
   display: inline-block;
+  min-width: 50px;
+  height: 16px;
+  margin: 5px 0 0 0;
+  float: right;
+  border: 1px solid #bcb982;
+  border-radius: 7px;
+  font-size: 10px;
+  font-weight: 600;
+  position: relative;
+  background: linear-gradient(180deg, #ffffff, #efebbd);
+}
+.main2 .main2_1 .content .content_1 .but_m a {
+  display: inline-block;
+  color: #0f0f0f;
+  padding: 0 12px 0 5px;
+  text-align: center;
+  width: 100%;
+  min-height: 14px;
+  border-radius: 7px;
+}
+.main2 .main2_1 .content .content_1 .but_m a:hover {
+  text-decoration: none;
+  background: #ffffff;
+  min-width: 48px;
+  min-height: 14px;
+  border-radius: 7px;
+  background: linear-gradient(180deg, #efebbd, #ffffff);
 }
 .main2 .main2_1 .content .content_img {
   width: 171px;
@@ -729,6 +796,13 @@ body {
   left: -23px;
   background: url("../images/skotch.png");
 }
+.main2 .st_r2 {
+  width: 3px;
+  height: 5px;
+  float: left;
+  margin: 5px 6px;
+  background: url("../images/strelka_red.png");
+}
 .main2 .main2_2 {
   width: 390px;
   min-height: 385px;
@@ -748,8 +822,16 @@ body {
   height: 17px;
   float: left;
   margin: 5px 10px 0 0;
-  background: url("../images/knopka_2.png");
+  border: 1px solid #94915d;
+  background: #edeccd;
   text-decoration: none;
+}
+.main2 .main2_2 .video_box .Vbox_1 .play_2 a {
+  display: inline-block;
+}
+.main2 .main2_2 .video_box .Vbox_1 .play_2 a:hover {
+  text-decoration: none;
+  background: #e9e7a0;
 }
 .main2 .main2_2 .video_box .Vbox_1 .box_text {
   font-size: 20px;
@@ -791,11 +873,11 @@ body {
   color: #0f0f0f;
   font-weight: 600;
   position: relative;
-  top: 20px;
-  right: -60px;
+  top: -4px;
+  left: 125px;
 }
 .main2 .main2_2 .video_box .Vbox_3 .numb:hover {
-  color: #ffffff;
+  color: dimgrey;
 }
 .footer {
   width: 100%;
@@ -809,9 +891,10 @@ body {
 }
 .footer_head .bg_page {
   width: 335px;
-  height: 37px;
-  background: url("../images/bg_foot.png");
+  height: 45px;
+  background: url("../images/bg_foot.png") round;
   position: relative;
+  background-size: 100%;
   top: -10px;
   left: 295px;
 }
@@ -839,7 +922,7 @@ body {
   display: flex;
   flex-direction: row;
   position: relative;
-  top: -27px;
+  top: -35px;
   right: 21px;
   width: 160px;
   height: 20px;
